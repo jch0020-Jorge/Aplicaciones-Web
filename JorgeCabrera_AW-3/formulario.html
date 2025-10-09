@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="datos.php" method="POST">
+        <label>Nombre:
+            <input type="text" name="nombre" required>
+        </label>
+        <br><br>
+        <label>apellidos:
+            <input type="text" name="apellidos" required>
+        </label>
+        <br> <br>
+        <label>Ciudad
+            <select name="Ciudad">
+                <option>Madrid</option>
+                <option>Jaen</option>
+                <option>Ourense</option>
+            </select>
+        </label>
+        <br><br>
+        <p>Preferencias</p>
+        <label><input type="checkbox" name="preferencias[]" value="Deportes">Deportes</label>
+        <label><input type="checkbox" name="preferencias[]" value="Musica">Musica</label>
+        <label><input type="checkbox" name="preferencias[]" value="Videojuegos">Videojuegos</label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

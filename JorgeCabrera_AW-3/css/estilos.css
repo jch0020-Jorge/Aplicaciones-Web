@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse; 
+  margin: 20px auto;         
+  width: 80%;
+}
+
+th, td {
+  border: 4px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.Hora { background-color: #ff0019; color: #000; }
+.Lunes { background-color: #ff0019; color: #000; }
+.Martes { background-color: #ff0019; color: #000; }
+.Miercoles { background-color: #ff0019; color: #000; }
+.Jueves { background-color: #ff0019; color: #000; }
+.Viernes { background-color: #ff0019; color: #000; }
+.Horario { background-color: #ff0019; color: #000; }
+.empleabilidad { background-color: #00ff2a; color: #000; }
+.ingles { background-color: #5ef7b7; color: #000; }
+.programacion { background-color: #00c3ff; color: #000; }
+.Aplicaciones { background-color: #0026ff; color: #000; }
+.Servicios { background-color: #ff00c8; color: #000; }
+.Seguridad { background-color: #fffb00; color: #000; }
+.Sistemas { background-color: #6f00ff; color: #000; }
+.Proyecto { background-color: #580952; color: #000; }
