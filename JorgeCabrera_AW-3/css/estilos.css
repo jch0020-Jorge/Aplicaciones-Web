@@ -10,6 +10,18 @@ th, td {
   text-align: center;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4;
+  padding: 4;
+  background: linear-gradient(to right, #00c3ff, #0026ff);
+  color: #ff0077;
+}
+h1, h2, h3 {
+  text-align: left;
+  text-shadow: 2px 4px 6px #000;
+}
+
 .Hora { background-color: #ff0019; color: #000; }
 .Lunes { background-color: #ff0019; color: #000; }
 .Martes { background-color: #ff0019; color: #000; }
